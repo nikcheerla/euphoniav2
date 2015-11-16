@@ -1,0 +1,5 @@
+var file = require('fs').readFileSync('71-2-polonaise.mid', 'binary')
+var midi = midiFileParser(file);
+
+
+fin = midi;
